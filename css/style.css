@@ -286,6 +286,11 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  align-items: center;
+  z-index: 0;
 }
 
 .session::before {
@@ -295,9 +300,95 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0.54deg, #FFFFFF -5.44%, rgba(255, 255, 255, 0) 99.72%);
+  background: linear-gradient(0deg, #fff 5%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
 }
-background: 
+
+.session .session-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  opacity: 1;
+  min-height: 300px;
+  z-index: 10;
+}
+
+.session .session-content .heading {
+  color: #18437d;
+  text-align: center;
+  font-family: Libre Baskerville;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto 60px;
+}
+
+.session .session-content button {
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #18437d;
+  text-align: center;
+  font-family: Libre Baskerville;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 471px;
+  height: 60px;
+  flex-shrink: 0;
+  border: none;
+}
+
+.about-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.about-courses-headline {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-course .heading {
+  color: #18437d;
+  text-align: center;
+  font-family: Libre Baskerville;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 0px;
+}
+
+.about-course .subheading {
+  color: #18437d;
+  text-align: center;
+  font-family: Josefin Slab;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-course .image {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.about-course .image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  opacity: 0.7;
+}
 
 ::-webkit-scrollbar {
   display: none;

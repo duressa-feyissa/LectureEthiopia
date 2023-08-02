@@ -1,31 +1,31 @@
 const cardData = [
   {
-    imageSrc: "assets/rectangle-96.png",
+    imageSrc: "assets/card-1.png",
     title: "Lorem ipsum",
     text: "Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content",
   },
   {
-    imageSrc: "assets/rectangle-96.png",
+    imageSrc: "assets/card-1.png",
     title: "Lorem ipsum ",
     text: "Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content",
   },
   {
-    imageSrc: "assets/rectangle-96.png",
+    imageSrc: "assets/card-1.png",
     title: "Lorem ipsum ",
     text: "Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content",
   },
   {
-    imageSrc: "assets/rectangle-96.png",
+    imageSrc: "assets/card-1.png",
     title: "Lorem ipsum ",
     text: "Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content",
   },
   {
-    imageSrc: "assets/rectangle-96.png",
+    imageSrc: "assets/card-1.png",
     title: "Lorem ipsum ",
     text: "Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content",
   },
   {
-    imageSrc: "assets/rectangle-96.png",
+    imageSrc: "assets/card-1.png",
     title: "Lorem ipsum ",
     text: "Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content",
   },
